@@ -5,7 +5,6 @@ scipy==1.15.3
 scikit-learn==1.7.2
 matplotlib==3.10.9
 
-# Optional, only for rebuilding the report from Markdown:
-#   python-docx==1.2.0          # DOCX path (scripts/build_report.py)
-#   pypandoc==1.15              # both report builders (bundles a pandoc binary)
-#   weasyprint==66.0            # HTML/PDF path (scripts/build_report_html.py)
+# Optional, only for rebuilding the report PDF from the Markdown:
+#   pypandoc==1.15              # bundles a pandoc binary
+#   weasyprint==66.0            # HTML -> PDF (scripts/build_report_html.py)

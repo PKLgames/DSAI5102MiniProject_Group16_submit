@@ -5,6 +5,5 @@ scipy==1.15.3
 scikit-learn==1.7.2
 matplotlib==3.10.9
 
-# Optional, only for rebuilding the report PDF from the Markdown:
-#   pypandoc==1.15              # bundles a pandoc binary
-#   weasyprint==66.0            # HTML -> PDF (scripts/build_report_html.py)
+# Not needed here: pypandoc and weasyprint are only required in the main repository,
+# which holds the Markdown source and the script that typesets it.

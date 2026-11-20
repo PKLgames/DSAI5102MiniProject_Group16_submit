@@ -7,9 +7,9 @@ the analysis can be re-run offline without downloading anything.
 
 | Folder | Contents |
 |:--|:--|
-| `report/` | `DSAI5102_Group16_Report.pdf` (17 pages) — the Markdown source stays in the main repository, so `report/` here holds the PDF only |
+| `report/` | `Group16_Report.pdf` (17 pages) — the Markdown source stays in the main repository, so `report/` here holds the PDF only |
 | `archive/` | the earlier PowerPoint deck (v1, pptx + pdf) and the retired report builders |
-| `slides/` | `DSAI5102_Group16_slides.pdf` (9 slides, 16:9) — the deck is made in Canva, so the PDF is the deliverable |
+| `slides/` | `Group16_slides.pdf` (9 slides, 16:9) — the deck is made in Canva, so the PDF is the deliverable |
 | `scripts/` | ten scripts: extraction, analysis, figures, tables, split-seed check, report builders |
 | `data/` | frozen WDI extracts (`raw/`, `processed/`) and `PROVENANCE.md` |
 | `results/` | `analysis.json` — every number quoted in the report — plus figures, tables and intermediate CSVs |
@@ -47,7 +47,7 @@ Single-threaded, no GPU, no network. About 100 s for the analysis, 50 s for the 
 
 ## Documents
 
-`report/DSAI5102_Group16_Report.pdf` is the submitted report. Its Markdown source and the script that
+`report/Group16_Report.pdf` is the submitted report. Its Markdown source and the script that
 typesets it (`build_report_html.py`) live in the main repository,
 https://github.com/PKLgames/dsai5102miniproject_2, where the text and its PDF are rebuilt together; this
 package carries the PDF only. The deck is designed in Canva and exported to PDF, so it has no PowerPoint source
